@@ -1,13 +1,13 @@
 # Kotlin RAG Library
 
-A modern, powerful, and extensible library for implementing Retrieval-Augmented Generation (RAG) in Kotlin, focusing on robustness, scalability, and ease of use. Built on the principles of DRY (Don't Repeat Yourself) and KISS (Keep It Simple, Stupid), this library enables developers to create applications that can answer questions based on specific documents.
+A library for implementing Retrieval-Augmented Generation (RAG) in Kotlin, focusing on robustness, scalability, and ease of use. Built on the principles of DRY (Don't Repeat Yourself) and KISS (Keep It Simple, Stupid), this library enables developers to create applications that can answer questions based on specific documents.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Kotlin](https://img.shields.io/badge/kotlin-1.8.0-blue.svg)](https://kotlinlang.org)
 
 ## ✨ Features
 
-- **Flexible Architecture**: Well-defined interfaces with multiple implementations
+- **Flexible Architecture**: Interfaces with multiple implementations
 - **Robust Error Handling**: Circuit breakers, fallbacks, retries, and comprehensive error recovery
 - **Performance Optimized**: Caching, batch processing, and vectorization optimizations
 - **Idiomatic Kotlin API**: DSLs, extension functions, coroutines, and typed results
