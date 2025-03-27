@@ -33,6 +33,8 @@ dependencies {
     implementation("org.postgresql:postgresql:42.5.4")
     implementation("com.zaxxer:HikariCP:5.0.1")
     implementation("com.github.doyaaaaaken:kotlin-csv:1.9.0")
+
+    implementation(files("libs/groq-api-core-0.1.0.jar"))
     
     // Testing
     testImplementation(kotlin("test"))
